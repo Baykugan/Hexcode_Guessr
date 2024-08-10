@@ -1,0 +1,15 @@
+[tool.poetry]
+package-mode = false
+name = "hexcode-guessr"
+version = "0.1.0"
+description = "A small program for guessing the hexcode of the shown color"
+authors = ["Baykugan <Even.Ytterli.Tokle@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
